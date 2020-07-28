@@ -36,3 +36,4 @@ class HomePage(models.Model):
 class NewModel(models.Model):
     "Generated Model"
     afterBool = models.BigIntegerField()
+    a_new_field = models.DurationField(null=True, blank=True,)
